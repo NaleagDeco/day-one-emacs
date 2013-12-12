@@ -12,6 +12,11 @@
 ;; Emacs.
 
 ;;; Code:
+(defun day1-create-entry ()
+  "Start a journal entry in day1."
+  (interactive)
+  (set-buffer (generate-new-buffer "Day1")))
+
 
 (provide 'day-one)
 ;;; day-one.el ends here
